@@ -7,7 +7,7 @@ import Competitors from './views/Competitors';
 import Tenders from './views/Tenders';
 import Settings from './views/Settings';
 
-const PASSWORD = 'demo2026';
+const PASSWORD = 'hub2026';
 
 function LoginScreen({ onUnlock }: { onUnlock: () => void }) {
   const [value, setValue] = useState('');
