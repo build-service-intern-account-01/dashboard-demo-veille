@@ -98,7 +98,7 @@ export default function App() {
   if (!unlocked) return <LoginScreen onUnlock={() => setUnlocked(true)} />;
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/dashboard-demo-veille">
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Dashboard />} />
