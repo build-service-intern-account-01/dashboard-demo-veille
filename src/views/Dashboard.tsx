@@ -166,7 +166,7 @@ export default function Dashboard() {
           label="Pipeline Estimé"
           value={shouldAnimate ? pipelineValue : 0}
           prefix="CHF "
-          color="emerald" icon="💰" tag="2025"
+          color="emerald" icon="💰" tag="2026"
           sparkline={KPI_SPARKLINES.pipe}
           animate={shouldAnimate}
         />
@@ -317,7 +317,7 @@ export default function Dashboard() {
         <div className="ml-auto flex items-center gap-4 font-mono text-[9px] text-slate-500">
           <span>Dernier scan : <span className="text-white">{lastScan}</span></span>
           <span>Prochain : <span className="text-amber-400">{nextScan}</span></span>
-          <span className="text-slate-600">STATRON ROMANDIE © 2025</span>
+          <span className="text-slate-600">STATRON ROMANDIE © 2026</span>
         </div>
       </footer>
     </div>

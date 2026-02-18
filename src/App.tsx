@@ -75,7 +75,7 @@ function LoginScreen({ onUnlock }: { onUnlock: () => void }) {
         </form>
 
         <p className="font-mono text-[8px] text-slate-600 uppercase tracking-widest">
-          STATRON ROMANDIE © 2025 — Démo confidentielle
+          STATRON ROMANDIE © 2026 — Démo confidentielle
         </p>
       </div>
 

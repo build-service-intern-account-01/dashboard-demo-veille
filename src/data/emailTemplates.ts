@@ -9,12 +9,12 @@ export interface EmailTemplate {
 }
 
 export const EMAIL_TEMPLATES: Record<string, EmailTemplate> = {
-  'AO-2025-441': {
-    tenderId: 'AO-2025-441',
+  'AO-2026-441': {
+    tenderId: 'AO-2026-441',
     from: 'account.manager@statron.ch',
     to: 'direction.technique@hug.ch',
     cc: 'achats@hug.ch; direction@statron.ch',
-    subject: 'Réponse AO #2025-441 — Protection électrique critique / Statron Série S6300 Medical',
+    subject: 'Réponse AO #2026-441 — Protection électrique critique / Statron Série S6300 Medical',
     confidence: 96,
     body: `Monsieur le Directeur Technique,
 
@@ -42,12 +42,12 @@ Tél. : +41 22 700 XX XX
 m.dupont@statron.ch | www.statron.ch`,
   },
 
-  'AO-2025-512': {
-    tenderId: 'AO-2025-512',
+  'AO-2026-512': {
+    tenderId: 'AO-2026-512',
     from: 'account.manager@statron.ch',
     to: 'direction.technique@chuv.ch',
     cc: 'service.achats@chuv.ch; direction@statron.ch',
-    subject: 'Réponse AO #2025-512 — Contrat maintenance 120 UPS / Statron SLA Premium 3 ans',
+    subject: 'Réponse AO #2026-512 — Contrat maintenance 120 UPS / Statron SLA Premium 3 ans',
     confidence: 91,
     body: `Madame, Monsieur,
 
@@ -77,12 +77,12 @@ Tél. : +41 22 700 XX XX
 m.dupont@statron.ch | www.statron.ch`,
   },
 
-  'AO-2025-388': {
-    tenderId: 'AO-2025-388',
+  'AO-2026-388': {
+    tenderId: 'AO-2026-388',
     from: 'account.manager@statron.ch',
     to: 'service.batiments@jura.ch',
     cc: 'informatique@jura.ch; direction@statron.ch',
-    subject: 'Réponse AO #2025-388 — Infrastructure électrique critique Canton du Jura / Statron',
+    subject: 'Réponse AO #2026-388 — Infrastructure électrique critique Canton du Jura / Statron',
     confidence: 85,
     body: `Monsieur le Responsable des Bâtiments,
 
@@ -108,12 +108,12 @@ Tél. : +41 22 700 XX XX
 m.dupont@statron.ch | www.statron.ch`,
   },
 
-  'AO-2025-299': {
-    tenderId: 'AO-2025-299',
+  'AO-2026-299': {
+    tenderId: 'AO-2026-299',
     from: 'account.manager@statron.ch',
     to: 'direction.numerique@lausanne.ch',
     cc: 'achats@lausanne.ch; direction@statron.ch',
-    subject: 'Réponse AO #2025-299 — Datacenter municipal Lausanne / Statron Gamme Modulaire S9000',
+    subject: 'Réponse AO #2026-299 — Datacenter municipal Lausanne / Statron Gamme Modulaire S9000',
     confidence: 88,
     body: `Madame la Directrice du Numérique,
 
@@ -141,12 +141,12 @@ Tél. : +41 22 700 XX XX
 m.dupont@statron.ch | www.statron.ch`,
   },
 
-  'AO-2025-310': {
-    tenderId: 'AO-2025-310',
+  'AO-2026-310': {
+    tenderId: 'AO-2026-310',
     from: 'account.manager@statron.ch',
     to: 'infrastructure.romandie@cff.ch',
     cc: 'achats.technique@cff.ch; direction@statron.ch',
-    subject: 'Réponse AO #2025-310 — Infrastructure critique ferroviaire / Statron EN 50121',
+    subject: 'Réponse AO #2026-310 — Infrastructure critique ferroviaire / Statron EN 50121',
     confidence: 79,
     body: `Monsieur le Responsable Infrastructure,
 
@@ -174,12 +174,12 @@ Tél. : +41 22 700 XX XX
 m.dupont@statron.ch | www.statron.ch`,
   },
 
-  'AO-2025-276': {
-    tenderId: 'AO-2025-276',
+  'AO-2026-276': {
+    tenderId: 'AO-2026-276',
     from: 'account.manager@statron.ch',
     to: 'direction.technique@h-fr.ch',
     cc: 'service.achats@h-fr.ch; direction@statron.ch',
-    subject: 'Réponse AO #2025-276 — Protection urgences & blocs opératoires HFR / Statron',
+    subject: 'Réponse AO #2026-276 — Protection urgences & blocs opératoires HFR / Statron',
     confidence: 93,
     body: `Sehr geehrter Herr Technischer Direktor / Monsieur le Directeur Technique,
 
@@ -207,12 +207,12 @@ Tél. : +41 22 700 XX XX
 m.dupont@statron.ch | www.statron.ch`,
   },
 
-  'AO-2025-341': {
-    tenderId: 'AO-2025-341',
+  'AO-2026-341': {
+    tenderId: 'AO-2026-341',
     from: 'account.manager@statron.ch',
     to: 'technical.infrastructure@gva.ch',
     cc: 'procurement@gva.ch; direction@statron.ch',
-    subject: 'Réponse AO #2025-341 — Protection électrique tours de contrôle AIG / Statron Aviation',
+    subject: 'Réponse AO #2026-341 — Protection électrique tours de contrôle AIG / Statron Aviation',
     confidence: 71,
     body: `Monsieur le Responsable Infrastructure Technique,
 
@@ -240,12 +240,12 @@ Tél. : +41 22 700 XX XX
 m.dupont@statron.ch | www.statron.ch`,
   },
 
-  'AO-2025-358': {
-    tenderId: 'AO-2025-358',
+  'AO-2026-358': {
+    tenderId: 'AO-2026-358',
     from: 'account.manager@statron.ch',
     to: 'si.infrastructure@vd.ch',
     cc: 'achats.informatique@vd.ch; direction@statron.ch',
-    subject: 'Réponse AO #2025-358 — Onduleurs administration cantonale VD / Statron Smart-IT Series',
+    subject: 'Réponse AO #2026-358 — Onduleurs administration cantonale VD / Statron Smart-IT Series',
     confidence: 82,
     body: `Monsieur le Responsable Infrastructure SI,
 
