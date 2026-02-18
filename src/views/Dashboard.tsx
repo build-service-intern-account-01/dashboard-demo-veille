@@ -106,7 +106,7 @@ export default function Dashboard() {
           <div className="logo-ring">S</div>
           <div>
             <h1 className="font-syne text-xl font-bold tracking-wider text-white leading-none">
-              STATRON <span className="text-amber-400 font-normal">ROMANDIE</span>
+              INTELLIGENCE <span className="text-amber-400 font-normal">HUB</span>
             </h1>
             <p className="font-mono text-[9px] text-slate-500 uppercase tracking-widest mt-0.5">
               Veille Stratégique &amp; Automatisation IA · v3.2
@@ -317,7 +317,7 @@ export default function Dashboard() {
         <div className="ml-auto flex items-center gap-4 font-mono text-[9px] text-slate-500">
           <span>Dernier scan : <span className="text-white">{lastScan}</span></span>
           <span>Prochain : <span className="text-amber-400">{nextScan}</span></span>
-          <span className="text-slate-600">STATRON ROMANDIE © 2026</span>
+          <span className="text-slate-600">SOLUTION INTERNE © 2026</span>
         </div>
       </footer>
     </div>

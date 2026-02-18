@@ -131,7 +131,7 @@ export default function Settings() {
                   <div>
                     <span className="font-syne text-xs text-slate-200 capitalize">{channel === 'sms' ? 'SMS' : channel.charAt(0).toUpperCase() + channel.slice(1)}</span>
                     <p className="font-mono text-[9px] text-slate-500">
-                      {channel === 'email' ? 'm.dupont@statron.ch' : channel === 'slack' ? '#veille-statron' : '+41 76 XXX XX XX'}
+                      {channel === 'email' ? 'm.dupont@intern-office.ch' : channel === 'slack' ? '#veille-interne' : '+41 76 XXX XX XX'}
                     </p>
                   </div>
                   <div

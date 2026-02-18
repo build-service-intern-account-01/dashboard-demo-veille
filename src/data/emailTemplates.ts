@@ -11,20 +11,20 @@ export interface EmailTemplate {
 export const EMAIL_TEMPLATES: Record<string, EmailTemplate> = {
   'AO-2026-441': {
     tenderId: 'AO-2026-441',
-    from: 'account.manager@statrondemo.ch',
+    from: 'account.manager@intern-office.ch',
     to: 'direction.technique@clientdemo.ch',
-    cc: 'achats@clientdemo.ch; direction@statrondemo.ch',
-    subject: 'Réponse AO #2026-441 — Protection électrique critique / Statron Série S6300 Medical',
+    cc: 'achats@clientdemo.ch; direction@intern-office.ch',
+    subject: 'Réponse AO #2026-441 — Solution Énergie Critique — [Gamme Medical S6300]',
     confidence: 96,
     body: `Monsieur le Directeur Technique,
 
-Suite à la publication de votre appel d'offres concernant le renouvellement de 48 onduleurs pour le bloc opératoire B des HUG, Statron Romandie est en mesure de vous proposer une solution éprouvée répondant à l'ensemble de vos exigences techniques et réglementaires.
+Suite à la publication de votre appel d'offres concernant le renouvellement de 48 onduleurs pour le bloc opératoire B des HUG, notre structure est en mesure de vous proposer une solution éprouvée répondant à l'ensemble de vos exigences techniques et réglementaires.
 
-Pourquoi Statron avant la clôture de votre consultation ?
+Pourquoi nous contacter avant la clôture de votre consultation ?
 
   • Proximité opérationnelle — Nos techniciens certifiés sont basés à Genève, garantissant un temps de réponse SLA inférieur à 2 heures, 24h/24, 7j/7.
 
-  • Fiabilité documentée — Notre Série S6300 Medical affiche un MTBF supérieur à 260'000 heures. Référence comparable : installation identique au CHUV (2022), disponibilité 99.998% sur 24 mois.
+  • Fiabilité documentée — Notre Gamme Medical affiche un MTBF supérieur à 260'000 heures. Référence comparable : installation identique au site hospitalier de référence (2022), disponibilité 99.998% sur 24 mois.
 
   • Conformité complète — Norme CEI 60364-7-710 (locaux à usage médical), IEC 62040-3, marquage CE médical classe IIa.
 
@@ -37,27 +37,27 @@ Dans l'attente de votre retour, je reste à votre disposition.
 Cordialement,
 
 Marc Dupont — Account Manager Romandie
-STATRON ROMANDIE SA
+SOLUTION INTERNE — ROMANDIE SA
 Tél. : +41 22 700 XX XX
-m.dupont@statrondemo.ch | www.statron.ch`,
+m.dupont@intern-office.ch`,
   },
 
   'AO-2026-512': {
     tenderId: 'AO-2026-512',
-    from: 'account.manager@statrondemo.ch',
+    from: 'account.manager@intern-office.ch',
     to: 'direction.technique@clientdemo.ch',
-    cc: 'service.achats@clientdemo.ch; direction@statrondemo.ch',
-    subject: 'Réponse AO #2026-512 — Contrat maintenance 120 UPS / Statron SLA Premium 3 ans',
+    cc: 'service.achats@clientdemo.ch; direction@intern-office.ch',
+    subject: 'Réponse AO #2026-512 — Solution Énergie Critique — [SLA Premium 3 ans]',
     confidence: 91,
     body: `Madame, Monsieur,
 
-À l'approche de l'échéance du contrat de maintenance en cours pour les 120 onduleurs de votre infrastructure, Statron Romandie souhaite vous présenter une offre de reprise compétitive et techniquement supérieure.
+À l'approche de l'échéance du contrat de maintenance en cours pour les 120 onduleurs de votre infrastructure, notre structure souhaite vous présenter une offre de reprise compétitive et techniquement supérieure.
 
 Ce qui différencie notre proposition :
 
   • SLA inférieur à 2h à Lausanne — Nos équipes techniques sont positionnées sur le site de Lausanne, contre 4 heures pour le prestataire sortant. En milieu hospitalier critique, chaque minute compte.
 
-  • Portail de supervision temps réel — Accès 24h/24 à la télémétrie complète de chaque onduleur (charge, autonomie, température batteries, événements). Tableau de bord dédié CHUV sans surcoût.
+  • Portail de supervision temps réel — Accès 24h/24 à la télémétrie complète de chaque onduleur (charge, autonomie, température batteries, événements). Tableau de bord dédié sans surcoût.
 
   • Rapport mensuel automatisé — Conformité CEI, historique incidents, prévisions de maintenance préventive. Zéro travail administratif pour vos équipes.
 
@@ -72,21 +72,21 @@ Je reste disponible à votre convenance pour un entretien téléphonique ou une 
 Cordialement,
 
 Marc Dupont — Account Manager Romandie
-STATRON ROMANDIE SA
+SOLUTION INTERNE — ROMANDIE SA
 Tél. : +41 22 700 XX XX
-m.dupont@statrondemo.ch | www.statron.ch`,
+m.dupont@intern-office.ch`,
   },
 
   'AO-2026-388': {
     tenderId: 'AO-2026-388',
-    from: 'account.manager@statrondemo.ch',
+    from: 'account.manager@intern-office.ch',
     to: 'service.batiments@clientdemo.ch',
-    cc: 'informatique@clientdemo.ch; direction@statrondemo.ch',
-    subject: 'Réponse AO #2026-388 — Infrastructure électrique critique Canton du Jura / Statron',
+    cc: 'informatique@clientdemo.ch; direction@intern-office.ch',
+    subject: 'Réponse AO #2026-388 — Solution Énergie Critique — [Infrastructure Cantonale]',
     confidence: 85,
     body: `Monsieur le Responsable des Bâtiments,
 
-Nous avons pris connaissance de votre appel d'offres concernant la protection électrique critique des 8 bâtiments administratifs du Canton du Jura. Statron Romandie est en mesure de vous soumettre une offre complète, compétitive et soutenue par des références cantonales solides.
+Nous avons pris connaissance de votre appel d'offres concernant la protection électrique critique des 8 bâtiments administratifs du Canton du Jura. Notre structure est en mesure de vous soumettre une offre complète, compétitive et soutenue par des références cantonales solides.
 
 Points forts de notre dossier au regard de vos critères d'évaluation :
 
@@ -103,21 +103,21 @@ Nous serons heureux de vous transmettre notre dossier de candidature complet, ac
 Cordialement,
 
 Marc Dupont — Account Manager Romandie
-STATRON ROMANDIE SA
+SOLUTION INTERNE — ROMANDIE SA
 Tél. : +41 22 700 XX XX
-m.dupont@statrondemo.ch | www.statron.ch`,
+m.dupont@intern-office.ch`,
   },
 
   'AO-2026-299': {
     tenderId: 'AO-2026-299',
-    from: 'account.manager@statrondemo.ch',
+    from: 'account.manager@intern-office.ch',
     to: 'direction.numerique@clientdemo.ch',
-    cc: 'achats@clientdemo.ch; direction@statrondemo.ch',
-    subject: 'Réponse AO #2026-299 — Datacenter municipal Lausanne / Statron Gamme Modulaire S9000',
+    cc: 'achats@clientdemo.ch; direction@intern-office.ch',
+    subject: 'Réponse AO #2026-299 — Solution Énergie Critique — [Gamme Modulaire S9000]',
     confidence: 88,
     body: `Madame la Directrice du Numérique,
 
-La Ville de Lausanne s'apprête à moderniser l'alimentation de secours de son datacenter municipal. Statron Romandie vous propose la gamme modulaire S9000, spécialement conçue pour les datacenters urbains en croissance.
+La Ville de Lausanne s'apprête à moderniser l'alimentation de secours de son datacenter municipal. Notre structure vous propose la gamme modulaire S9000, spécialement conçue pour les datacenters urbains en croissance.
 
 Architecture modulaire — le choix stratégique pour un datacenter municipal :
 
@@ -136,25 +136,25 @@ Je vous propose de vous présenter notre solution lors d'une session technique d
 Cordialement,
 
 Marc Dupont — Account Manager Romandie
-STATRON ROMANDIE SA
+SOLUTION INTERNE — ROMANDIE SA
 Tél. : +41 22 700 XX XX
-m.dupont@statrondemo.ch | www.statron.ch`,
+m.dupont@intern-office.ch`,
   },
 
   'AO-2026-310': {
     tenderId: 'AO-2026-310',
-    from: 'account.manager@statrondemo.ch',
+    from: 'account.manager@intern-office.ch',
     to: 'infrastructure.romandie@clientdemo.ch',
-    cc: 'achats.technique@clientdemo.ch; direction@statrondemo.ch',
-    subject: 'Réponse AO #2026-310 — Infrastructure critique ferroviaire / Statron EN 50121',
+    cc: 'achats.technique@clientdemo.ch; direction@intern-office.ch',
+    subject: 'Réponse AO #2026-310 — Solution Énergie Critique — [Gamme Rail EN 50121]',
     confidence: 79,
     body: `Monsieur le Responsable Infrastructure,
 
-Les Chemins de Fer Fédéraux représentent l'infrastructure critique par excellence. Statron Romandie dispose d'une expertise spécifique sur les environnements ferroviaires et vous propose une offre répondant aux normes les plus strictes du secteur.
+Les Chemins de Fer Fédéraux représentent l'infrastructure critique par excellence. Notre structure dispose d'une expertise spécifique sur les environnements ferroviaires et vous propose une offre répondant aux normes les plus strictes du secteur.
 
 Notre maîtrise des contraintes ferroviaires :
 
-  • Conformité EN 50121 — Nos onduleurs de la gamme Rail-S sont certifiés pour les environnements ferroviaires : résistance aux vibrations (norme IEC 60068-2-6), immunité CEM, plage de température étendue (-20°C à +60°C).
+  • Conformité EN 50121 — Nos onduleurs de la gamme Rail sont certifiés pour les environnements ferroviaires : résistance aux vibrations (norme IEC 60068-2-6), immunité CEM, plage de température étendue (-20°C à +60°C).
 
   • Continuité opérationnelle sur 5 sites — Notre équipe technique assure la coordination inter-sites pour garantir une transition sans impact sur les horaires. Planning de déploiement adapté aux plages de maintenance ferroviaire (créneaux nocturnes 01h-05h).
 
@@ -162,24 +162,24 @@ Notre maîtrise des contraintes ferroviaires :
 
   • Pièces de rechange garanties 10 ans — Engagement contractuel sur la disponibilité des pièces critiques, conforme aux exigences de longévité des actifs ferroviaires.
 
-  • Expérience secteur — Références : Gare de Lausanne (2021), Centre de maintenance CFF Yverdon (2022), Poste d'aiguillage Genève-Cornavin (2023).
+  • Expérience secteur — Références : Gare de Lausanne (2021), Centre de maintenance Yverdon (2022), Poste d'aiguillage Genève-Cornavin (2023).
 
 Je serais heureux de vous présenter ces références lors d'un échange technique avec votre équipe NOC.
 
 Cordialement,
 
 Marc Dupont — Account Manager Romandie
-STATRON ROMANDIE SA
+SOLUTION INTERNE — ROMANDIE SA
 Tél. : +41 22 700 XX XX
-m.dupont@statrondemo.ch | www.statron.ch`,
+m.dupont@intern-office.ch`,
   },
 
   'AO-2026-276': {
     tenderId: 'AO-2026-276',
-    from: 'account.manager@statrondemo.ch',
+    from: 'account.manager@intern-office.ch',
     to: 'direction.technique@clientdemo.ch',
-    cc: 'service.achats@clientdemo.ch; direction@statrondemo.ch',
-    subject: 'Réponse AO #2026-276 — Protection urgences & blocs opératoires HFR / Statron',
+    cc: 'service.achats@clientdemo.ch; direction@intern-office.ch',
+    subject: 'Réponse AO #2026-276 — Solution Énergie Critique — [Protection Urgences & Blocs]',
     confidence: 93,
     body: `Sehr geehrter Herr Technischer Direktor / Monsieur le Directeur Technique,
 
@@ -202,25 +202,25 @@ Nous sommes à votre disposition pour un entretien dans vos locaux de Fribourg o
 Mit freundlichen Grüssen / Cordialement,
 
 Marc Dupont — Account Manager Romandie
-STATRON ROMANDIE SA
+SOLUTION INTERNE — ROMANDIE SA
 Tél. : +41 22 700 XX XX
-m.dupont@statrondemo.ch | www.statron.ch`,
+m.dupont@intern-office.ch`,
   },
 
   'AO-2026-341': {
     tenderId: 'AO-2026-341',
-    from: 'account.manager@statrondemo.ch',
+    from: 'account.manager@intern-office.ch',
     to: 'technical.infrastructure@clientdemo.ch',
-    cc: 'procurement@clientdemo.ch; direction@statrondemo.ch',
-    subject: 'Réponse AO #2026-341 — Protection électrique tours de contrôle AIG / Statron Aviation',
+    cc: 'procurement@clientdemo.ch; direction@intern-office.ch',
+    subject: 'Réponse AO #2026-341 — Solution Énergie Critique — [Gamme Aviation]',
     confidence: 71,
     body: `Monsieur le Responsable Infrastructure Technique,
 
-L'Aéroport International de Genève exploite l'une des tours de contrôle les plus critiques d'Europe centrale. Statron Romandie dispose d'une gamme Aviation-S répondant aux exigences les plus strictes de la réglementation aéroportuaire internationale.
+L'Aéroport International de Genève exploite l'une des tours de contrôle les plus critiques d'Europe centrale. Notre structure dispose d'une gamme Aviation répondant aux exigences les plus strictes de la réglementation aéroportuaire internationale.
 
 Notre expertise pour les environnements aéroportuaires :
 
-  • Certification IATA / OACI — Nos onduleurs Aviation-S répondent aux spécifications techniques de l'OACI (Annexe 14) et aux recommandations IATA Airport Development Reference Manual, 10e édition.
+  • Certification IATA / OACI — Nos onduleurs Aviation répondent aux spécifications techniques de l'OACI (Annexe 14) et aux recommandations IATA Airport Development Reference Manual, 10e édition.
 
   • Continuité sans interruption — Technologie Double Conversion OnLine avec bypass statique automatique. Temps de basculement <1ms, conforme aux exigences systèmes ATM (Air Traffic Management).
 
@@ -228,28 +228,28 @@ Notre expertise pour les environnements aéroportuaires :
 
   • Monitoring intégrable — Interface SNMP v3 / Modbus TCP pour intégration avec votre système SCADA BMS existant. Alertes prioritaires vers votre centre de supervision 24h/24.
 
-  • Référence aéroportuaire — Aéroport de Berne-Belhp (2022) et terminal T4 de Zurich Airport (sous-traitance, 2023). Références disponibles sur demande.
+  • Référence aéroportuaire — Aéroport de Berne-Belp (2022) et terminal T4 de Zurich Airport (sous-traitance, 2023). Références disponibles sur demande.
 
 Je suis à votre disposition pour une présentation technique auprès de vos équipes d'ingénierie.
 
 Cordialement,
 
 Marc Dupont — Account Manager Romandie
-STATRON ROMANDIE SA
+SOLUTION INTERNE — ROMANDIE SA
 Tél. : +41 22 700 XX XX
-m.dupont@statrondemo.ch | www.statron.ch`,
+m.dupont@intern-office.ch`,
   },
 
   'AO-2026-358': {
     tenderId: 'AO-2026-358',
-    from: 'account.manager@statrondemo.ch',
+    from: 'account.manager@intern-office.ch',
     to: 'si.infrastructure@clientdemo.ch',
-    cc: 'achats.informatique@clientdemo.ch; direction@statrondemo.ch',
-    subject: 'Réponse AO #2026-358 — Onduleurs administration cantonale VD / Statron Smart-IT Series',
+    cc: 'achats.informatique@clientdemo.ch; direction@intern-office.ch',
+    subject: 'Réponse AO #2026-358 — Solution Énergie Critique — [Gamme Smart-IT]',
     confidence: 82,
     body: `Monsieur le Responsable Infrastructure SI,
 
-Le Canton de Vaud modernise son infrastructure d'alimentation de secours pour l'administration cantonale. Statron Romandie vous propose la gamme Smart-IT Series, optimisée pour les environnements de virtualisation et les salles serveurs modernes.
+Le Canton de Vaud modernise son infrastructure d'alimentation de secours pour l'administration cantonale. Notre structure vous propose la gamme Smart-IT Series, optimisée pour les environnements de virtualisation et les salles serveurs modernes.
 
 Intégration transparente avec votre environnement IT :
 
@@ -270,9 +270,9 @@ Je vous propose une démonstration technique dans vos locaux de Lausanne, avec s
 Cordialement,
 
 Marc Dupont — Account Manager Romandie
-STATRON ROMANDIE SA
+SOLUTION INTERNE — ROMANDIE SA
 Tél. : +41 22 700 XX XX
-m.dupont@statrondemo.ch | www.statron.ch`,
+m.dupont@intern-office.ch`,
   },
 };
 

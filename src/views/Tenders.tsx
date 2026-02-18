@@ -60,7 +60,7 @@ function TenderDrawer({ tender, onClose, onGenerateEmail }: { tender: Tender; on
           <p className="text-xs text-slate-300 leading-relaxed">
             Score de compatibilité <strong className="text-cyan-400">{tender.compatibility}%</strong>.
             {tender.compatibility >= 90
-              ? " Profil d'appel d'offres idéal pour Statron Romandie. Prioriser en urgence."
+              ? " Profil d'appel d'offres idéal pour votre structure. Prioriser en urgence."
               : tender.compatibility >= 80
               ? " Bonne adéquation. Préparer un dossier solide avec références sectorielles."
               : " Compatibilité modérée. Évaluer l'effort vs la probabilité avant soumission."}
@@ -184,7 +184,7 @@ export default function Tenders() {
           >
             <div className={`absolute top-0.5 w-4 h-4 bg-white rounded-full shadow transition-transform ${statronOnly ? 'translate-x-4' : 'translate-x-0.5'}`} />
           </div>
-          <span className="font-mono text-[9px] text-slate-400">Compatibles Statron uniquement</span>
+          <span className="font-mono text-[9px] text-slate-400">Compatibles votre structure uniquement</span>
         </label>
         <span className="font-mono text-[9px] text-slate-500">{filtered.length} résultats</span>
       </div>

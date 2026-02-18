@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 export function useTheme() {
   const [isDark, setIsDark] = useState(() => {
-    const saved = localStorage.getItem('statron-theme');
+    const saved = localStorage.getItem('app-theme');
     return saved ? saved === 'dark' : true;
   });
 
@@ -15,7 +15,7 @@ export function useTheme() {
       root.classList.remove('dark');
       root.classList.add('light');
     }
-    localStorage.setItem('statron-theme', isDark ? 'dark' : 'light');
+    localStorage.setItem('app-theme', isDark ? 'dark' : 'light');
   }, [isDark]);
 
   return { isDark, toggle: () => setIsDark((prev) => !prev) };

@@ -7,7 +7,7 @@ import Competitors from './views/Competitors';
 import Tenders from './views/Tenders';
 import Settings from './views/Settings';
 
-const PASSWORD = 'statron2026';
+const PASSWORD = 'demo2026';
 
 function LoginScreen({ onUnlock }: { onUnlock: () => void }) {
   const [value, setValue] = useState('');
@@ -35,7 +35,7 @@ function LoginScreen({ onUnlock }: { onUnlock: () => void }) {
         <div className="logo-ring" style={{ width: 52, height: 52, fontSize: '1.4rem' }}>S</div>
         <div className="text-center">
           <h1 className="font-syne text-2xl font-bold tracking-wider text-white leading-none">
-            STATRON <span className="text-amber-400 font-normal">ROMANDIE</span>
+            INTELLIGENCE <span className="text-amber-400 font-normal">HUB</span>
           </h1>
           <p className="font-mono text-[9px] text-slate-500 uppercase tracking-widest mt-1.5">
             Intelligence Hub · Accès Sécurisé
@@ -75,7 +75,7 @@ function LoginScreen({ onUnlock }: { onUnlock: () => void }) {
         </form>
 
         <p className="font-mono text-[8px] text-slate-600 uppercase tracking-widest">
-          STATRON ROMANDIE © 2026 — Démo confidentielle
+          SOLUTION INTERNE © 2026 — Démo confidentielle
         </p>
       </div>
 
